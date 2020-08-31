@@ -27,3 +27,5 @@ function validateForm() {
     }
     document.querySelector('.status').innerHTML = "Sending...";
   }
+
+// Ê cái này dùng để check email cho phần contact us nhé //
