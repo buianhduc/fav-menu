@@ -1,0 +1,4 @@
+Application name	fav-music
+API key	d6b8629007370b1f50c3ea680f979250
+Shared secret	3af26402f1df5fae2ceac08943a60b6b
+Registered to	ducbui
