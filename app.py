@@ -1,4 +1,9 @@
 from flask import Flask
-from flask_restful import Api,Resources,reqparse
+import psycopg2
 app = Flask(__name__)
-api = Api(app)
+
+@app.route('/')
+def index():
+    return "Its works"
+
+app.run()
