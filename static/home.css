@@ -1,16 +1,9 @@
 body {
     background-color: black;
-}
-.background {
-    position:relative ;
-    width: 100%;
-    height: 828px;
-    left: 0px;
-    top: -4px;
-    z-index: -2;
-
-    background: url(pic1.webp);
-    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background.png);
+    /* background-repeat: no-repeat; */
     background-position: center center;
     background-size: cover;
 }
@@ -20,11 +13,7 @@ body {
 }
 
 .customise {
-    position:absolute;
-    width: 1166px;
-    height: 426px;
-    left: 4%;
-    top: 10%;
+    position: relative;
     
     font-family: Roboto;
     font-style: normal;
@@ -39,127 +28,6 @@ body {
     color: #ffffff;
 }
 
-.ƒavourite_music{
-    position: absolute;
-    width: 125px;
-    height: 58.63px;
-    left: 47px;
-    top: 10px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 153.69%;
-    /* or 28px */
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.365em;
-
-    color: #FFFFFF;
-}
-
-.GET_STARTED {
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    left: 120px;
-    top: 60%;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 153.69%;
-    /* or 55px */
-
-    display: flex;
-    align-items: center;
-    
-
-    color: #eeeeee;
-}
-
-.LEARN_MORE{
-    position: absolute;
-    width: 250px;
-    height: 100px;
-    left: 32.7%;
-    top: 60%;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 41px;
-    line-height: 153.69%;
-    /* identical to box height, or 63px */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-
-    color: #eeeeee;
-}
-
 .nav_left {
     justify-content: left;
 }
-
-.Rectangle_11 {
-    position: absolute;
-    width: 437px;
-    height: 101px;
-    left: 61px;
-    top: 60%;
-
-    background: #6C6CF8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-  }
-
-.Rectangle_11:hover {
-    background-color: #7f7ff1;
-}
-
-.Rectangle_12{
-    position: absolute;
-    width: 355px;
-    height: 101px;
-    left: 30%;
-    top: 60%;
-    background: none;
-
-    opacity: 0.2;
-    border: 4px solid #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-}
-
-.Rectangle_12:hover {
-    background: #ffffff;
-}
-
-.vector1 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 20%;
-    top: 64.5%;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 153.69%;
-    /* or 55px */
-
-    display: flex;
-    align-items: center;
-    
-
-    color: red;
-}
-
