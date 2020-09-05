@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/surveyFinal.css" />
+  </head>
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
-  <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../static/survey.css">
-</head>
-
-<body>
-  <a href="#">
+  <body>
+    <!-- <a href="#">
     <div class="exit-button">
       <img src="https://cdn3.iconfinder.com/data/icons/ui-essential-elements-buttons/110/Close-512.png" alt="EXIT"
         style="width:47.5px ;height:47.5px">
@@ -39,7 +50,7 @@
 
   <a href="#">
     <div class="border-1"></div>
-    <!-- <a class="btn btn-primary waves-effect"></a> -->
+    <!-- <za class="btn btn-primary waves-effect"></za> 
     </div>
   </a>
 
@@ -70,19 +81,152 @@
     <span class="choices" style="left: 1100px; top: 580px;"></span>
     <span class="choices" style="left: 900px; top: 580px;"></span>
     <span class="choices" style="left: 700px; top: 580px;"></span>
-  </div>
+  </div> -->
 
-</body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg_black">
+      <!--mau elegant-color-dark la #212121 -->
+      <a class="navbar-brand" href="#">F a v o u r i t e M u s i c</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent-333"
+        aria-controls="navbarSupportedContent-333"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link"
+              >Survey
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+        </ul>
+      </div>
+      <nav class="navbar navbar-dark" style="color: #212529">
+        <form class="form-inline">
+          <div class="md-form my-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </div>
+          <button
+            class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+      </nav>
+    </nav>
+    <div class="main container">
+      <div class="row">
+          <div class="question-and-number">
+            <div class="row question-number">Question 1/3</div>
+            <div class="row question">
+              <h1>What are your favourite music genres?</h1>
+            </div>
+            <div class="row form-check">
+              <div class="choice">
+                <input type="checkbox" class="form-check-input" id="materialUnchecked">
+              <label class="form-check-label" for="materialUnchecked">Pop</label>
+              </div>
+              <div class="choice">
+                <input type="checkbox" class="form-check-input" id="materialUnchecked">
+              <label class="form-check-label" for="materialUnchecked">R&B/Soul</label>
+              </div>
+              <div class="choice">
+                <input type="checkbox" class="form-check-input" id="materialUnchecked">
+              <label class="form-check-label" for="materialUnchecked">EDM</label>
+              </div>
+            </div>
+          </div>
+          <div class="question-and-number">
+            <div class="row question-number">Question 2/3</div>
+            <div class="row question">
+              <h1>Where do your favourite music mostly come from?</h1>
+            </div>
+            <div class="row form-check">
+              <div class="choice">
+                <input type="checkbox" class="form-check-input" id="materialUnchecked">
+              <label class="form-check-label" for="materialUnchecked">Việt Nam</label>
+              </div>
+              <div class="choice">
+                <input type="checkbox" class="form-check-input" id="materialUnchecked">
+              <label class="form-check-label" for="materialUnchecked">US-UK</label>
+              </div>
+              <div class="choice">
+                <input type="checkbox" class="form-check-input" id="materialUnchecked">
+              <label class="form-check-label" for="materialUnchecked">Hàn Quốc</label>
+              </div>
+            </div>
+          </div>
+          <div class="question-and-number">
+            <div class="row question-number">Question 3/3</div>
+            <div class="row question">
+              <h1>What are your favourite music artists?</h1>
+            </div>
+            <div class="row">
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="#about">About</a>
+                  <a href="#base">Base</a>
+                  <a href="#blog">Blog</a>
+                  <a href="#contact">Contact</a>
+                  <a href="#custom">Custom</a>
+                  <a href="#support">Support</a>
+                  <a href="#tools">Tools</a>
+                </div>
+            </div>
+              </div> 
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+  ></script>
+  <!-- Bootstrap tooltips -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+  ></script>
+  <!-- Bootstrap core JavaScript -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
+  ></script>
+  <!-- MDB core JavaScript -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+  ></script>
 
-<script>Waves.attach('.btn', ['waves-effect']);</script>
-
+  <script>
+    Waves.attach(".btn", ["waves-effect"]);
+  </script>
 </html>
