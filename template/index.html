@@ -24,39 +24,63 @@ co gi ko hieu thi ib len gr hoi t nhe... t giup cho-->
 
 <body>
     <!-- Start your project here-->
-    <nav class=" navbar navbar-expand-lg navbar-dark bg_black">  <!--mau elegant-color-dark la #212121 -->
-        <a class="navbar-brand" href="#">F a v o u r i t e  M u s i c</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
-            aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg_black">
+        <!--mau elegant-color-dark la #212121 -->
+        <a class="navbar-brand" href="#">F a v o u r i t e M u s i c</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent-333"
+          aria-controls="navbarSupportedContent-333"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sign in</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home 
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/survey" class="nav-link"
+                >Survey
+                
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+          </ul>
         </div>
-        <nav class="navbar navbar-dark " style="color: #212529;">
-            <form class="form-inline">
-              <div class="md-form my-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-              </div>
-              <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
-            </form>
+        <nav class="navbar navbar-dark" style="color: #212529">
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input
+                class="form-control mr-sm-2"
+                type="text"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </div>
+            <button
+              class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
         </nav>
-    </nav>
+      </nav>
 
     
 
@@ -67,7 +91,7 @@ co gi ko hieu thi ib len gr hoi t nhe... t giup cho-->
             <div class="col">
                 <h1 class="customise row">Customise your own playlist now</h1>
                 <div class="buttons row">
-                    <button class="btn aqua-gradient GET_STARTED">GET STARTED <span><img src="/static/asset/right-arrow.svg" alt=""></span></button>
+                    <button class="btn aqua-gradient GET_STARTED" onclick = "location.href = '/survey'"">GET STARTED <span><i class="fas fa-chevron-right"></i></span></button>
                 
                     <button class="btn btn-outline-info waves-effect LEARN_MORE">LEARN MORE</button>
         

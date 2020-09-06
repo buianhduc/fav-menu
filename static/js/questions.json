@@ -1,0 +1,29 @@
+[
+    {
+        "id" : 1,
+        "text": "what are your favourite music?",
+        "choices": [
+            "Pop",
+            "R&B/Soul",
+            "EDM"
+        ]
+    },
+    {
+        "id" : 1,
+        "text": "what are your favourite music?",
+        "choices": [
+            "Pop",
+            "R&B/Soul",
+            "EDM"
+        ]
+    },
+    {
+        "id" : 1,
+        "text": "what are your favourite music?",
+        "choices": [
+            "Pop",
+            "R&B/Soul",
+            "EDM"
+        ]
+    }
+]

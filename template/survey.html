@@ -138,8 +138,63 @@
         </form>
       </nav>
     </nav>
-    <div class="main container">
-      <div class="row">
+    <form class="main container" method="POST">
+      
+
+      <h1>Thể loại nhạc mà bạn yêu thích là gì?</h1>
+      <input
+        id="option1"
+        placeholder="điền sức khỏe vào"
+        type="checkbox"
+        name="pop"
+        
+      />
+      <label for="option1">Pop</label>
+      <input
+        id="option2"
+        placeholder="điền sức khỏe vào"
+        type="checkbox"
+        name="soul"
+        
+      />
+      <label for="option1">R&B/Soul</label>
+      <input
+        id="option3"
+        placeholder="điền sức khỏe vào"
+        type="checkbox"
+        name="edm"
+        
+      />
+      <label for="option1">EDM</label>
+      <h1>Quốc gia nào mà bạn thường nghe tới</h1>
+      <input
+        id="option1"
+        placeholder="điền sức khỏe vào"
+        type="checkbox"
+        name="vn"
+        
+      />
+      <label for="option1">Việt Nam</label>
+      <input
+        id="option2"
+        placeholder="điền sức khỏe vào"
+        type="checkbox"
+        name="us"
+        
+      />
+      <label for="option1">US-UK</label>
+      <input
+        id="option3"
+        placeholder="điền sức khỏe vào"
+        type="checkbox"
+        name="hq"
+        
+      />
+      <label for="option1">Hàn Quốc</label>
+
+      <button type="submit" class="btn btn-success">Gửi thông tin</button>
+      <!-- <div class="row" id = "question-container">
+      <div class = 'container-fluid bg-white rounded mb-0' style = 'margin-top: 5%; padding-top: 10px; padding-left: 30px; padding-bottom: 10px;'>
           <div class="question-and-number">
             <div class="row question-number">Question 1/3</div>
             <div class="row question">
@@ -160,6 +215,8 @@
               </div>
             </div>
           </div>
+        </div>
+      <div class = 'container-fluid bg-white rounded mb-0' style = 'margin-top: 5%; padding-top: 10px; padding-left: 30px; padding-bottom: 10px;'>
           <div class="question-and-number">
             <div class="row question-number">Question 2/3</div>
             <div class="row question">
@@ -167,43 +224,22 @@
             </div>
             <div class="row form-check">
               <div class="choice">
-                <input type="checkbox" class="form-check-input" id="materialUnchecked">
+                <input type="checkbox" class="form-check-input" id="materialUnchecked" name = 'selectionBox1'>
               <label class="form-check-label" for="materialUnchecked">Việt Nam</label>
               </div>
               <div class="choice">
-                <input type="checkbox" class="form-check-input" id="materialUnchecked">
+                <input type="checkbox" class="form-check-input" id="materialUnchecked" name = 'selectionBox1'>
               <label class="form-check-label" for="materialUnchecked">US-UK</label>
               </div>
               <div class="choice">
-                <input type="checkbox" class="form-check-input" id="materialUnchecked">
+                <input type="checkbox" class="form-check-input" id="materialUnchecked" name = 'selectionBox1'>
               <label class="form-check-label" for="materialUnchecked">Hàn Quốc</label>
               </div>
-            </div>
+            </div> 
           </div>
-          <div class="question-and-number">
-            <div class="row question-number">Question 3/3</div>
-            <div class="row question">
-              <h1>What are your favourite music artists?</h1>
-            </div>
-            <div class="row">
-              <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                  <a href="#about">About</a>
-                  <a href="#base">Base</a>
-                  <a href="#blog">Blog</a>
-                  <a href="#contact">Contact</a>
-                  <a href="#custom">Custom</a>
-                  <a href="#support">Support</a>
-                  <a href="#tools">Tools</a>
-                </div>
-            </div>
-              </div> 
-            </div>
-          </div>
-      </div>
-    </div>
+        </div>
+        <button class="btn btn-primary" type = "submit">SUBMIT</button> -->
+    </form>
   </body>
 
   <script
@@ -229,4 +265,5 @@
   <script>
     Waves.attach(".btn", ["waves-effect"]);
   </script>
+  <script src="/static/js/generateQuestions.js"></script>
 </html>
